@@ -4,6 +4,7 @@
 body {
 	margin: 0px auto;
 	padding: 0;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 .Header {
 	background-color: #3985C4;
@@ -22,7 +23,7 @@ body {
 	position: relative;
 	top: 25%;
 	color: aliceblue;
-	font-family: Century Gothic;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -56,13 +57,13 @@ input[type=text] {
 	margin-top: 100px;
 	padding: 1em;
 	max-width: 900px;
-	font-family: Century Gothic;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	display: flex;
 	flex-flow:row wrap;
 	justify-content: space-evenly;
 }
 .converter {
-	display: inline-block
+	margin-bottom: 50px;
 }
 footer {
 	position: fixed;
