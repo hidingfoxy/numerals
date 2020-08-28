@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<title>🦊 Eldrfoa | Numerals</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="Header">
+			<p class="headtext"><a href="https://eldrfoa.github.io">🦊 Eldrfoa Main Page</a></p>
+		</div>
+		<h1 class="centered" align="center">🌠_🎇.✨~Numeral systems~✨-🌟~💫</h1>
+		<div class="body" align="center">
+			<div class="converter">
+				<h2>Decimal</h2>
+				<input id="decimalform" type="number" placeholder="Input" onKeyUp="decimalF(this.value)" onChange="decimalF(this.value)"><br>
+				<p class="desc">0 1 2 3 4 5 6 7 8 9</p>
+			</div>
+			<div class="converter">
+				<h2>Octal</h2>
+				<input id="octalform" type="number" placeholder="Input" onKeyUp="octalF(this.value)"><br>
+				<p class="desc">0 1 2 3 4 5 6 7</p>
+			</div>
+			<div class="converter">
+				<h2>Hexadecimal</h2>
+				<input id="hexform" type="text" placeholder="Input" onKeyUp="hexF(this.value)"><br>
+				<p class="desc">0 1 2 3 4 5 6 7 8 9 A B C D E F</p>
+			</div>
+			<div class="converter">
+				<h2>Binary</h2>
+				<input id="binaryform" type="text" placeholder="Input" onKeyUp="binaryF(this.value)"><br>
+				<p class="desc">0 1</p>
+				<p id="binaryerror"></p>
+			</div>
+		</div>
+		<footer>Made by eldrfoa, 2020.</footer>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px auto;
+	padding: 0;
+}
+.Header {
+	background-color: #3985C4;
+	height: 42px;
+	margin: 0;
+    width: 100%;
+}
+.Header a {
+	text-decoration: none;
+	color: white;
+}
+.headtext {
+	margin: 0px;
+	padding-left: 20px;
+	height: inherit;
+	position: relative;
+	top: 25%;
+	color: aliceblue;
+	font-family: Century Gothic;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  border: 1px solid Black;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+input[type=text] {
+  -moz-appearance: textfield;
+  border: 1px solid Black;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+.centered {
+	font-family: Consolas;
+	margin-top: 50px;
+}
+
+.body {
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 1em;
+	max-width: 900px;
+	font-family: Century Gothic;
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-evenly;
+}
+.converter {
+	display: inline-block
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
