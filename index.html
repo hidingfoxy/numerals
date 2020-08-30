@@ -7,10 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 	</head>
-	<body>
-		<div class="Header">
-			<p class="headtext"><a href="https://eldrfoa.github.io">🦊 Eldrfoa Main Page</a></p>
+	<body id="body">
+		<div id="Header" class="Header">
+			<p class="headtext"><a id="linkback" href="https://eldrfoa.github.io">🦊 Eldrfoa Main Page</a></p>
 		</div>
+		<p style="padding: 5px; margin-left: 10px"><button class="nightbutton" onClick="NightMode()" id="night">🌙</button></p>
 		<h1 class="centered" align="center">🌠_🎇.✨~Numeral systems~✨-🌟~💫</h1>
 		<div class="body" align="center">
 			<div class="converter">
@@ -36,5 +37,22 @@
 			</div>
 		</div>
 		<footer>© Made by eldrfoa, 2020.</footer>
+		<script>
+			function NightMode() {
+				var element = document.getElementById("night");
+				if (element.innerHTML === "🌙") {
+					element.innerHTML = "☀️";
+					document.getElementById("body").setAttribute("class", "dark-mode");
+					document.getElementById("Header").style.backgroundColor = "#C9AF95";
+					document.getElementById("linkback").style.color = "#FFE6C7";
+				} else {
+					element.innerHTML = "🌙";
+					document.getElementById("body").setAttribute("class", "");
+					document.getElementById("Header").style.backgroundColor = "#3985C4";
+					document.getElementById("linkback").style.color = "white";
+				}
+				
+			} 
+		</script>
 	</body>
 </html>
